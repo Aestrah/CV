@@ -1,18 +1,22 @@
 .title {
-    &-small {
-      letter-spacing: 0.5rem;
-      font-size: 1.7rem;
-    }
+  &-small {
+    letter-spacing: 0.5rem;
+    font-size: 1.7rem;
+    // text-align: center;
+    padding: 0rem 0 1rem 0;
   }
-  
-  .text {
-    &-primary {
-      color: var(--primary);
-    }
-    &-secondary {
-      color: var(--secondary);
-    }
-    &-hint {
-      color: var(--hint);
-    }
+}
+
+.text {
+  &-primary {
+    color: var(--primary);
   }
+
+  &-secondary {
+    color: var(--secondary);
+  }
+
+  &-hint {
+    color: var(--hint);
+  }
+}

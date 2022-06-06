@@ -8,7 +8,10 @@
   --background: #ffe0e0d8;
   --hint: #999;
   --border: #ddd;
-  --hover_name:rgb(231, 68, 123);
+  --hover_name: rgb(231, 68, 123);
+  --twitterhover: #00acee;
+  --facebookhover: #3b5998;
+  --linkedinhover: #0e76a8;
 }
 
 /*# sourceMappingURL=variables.css.map */
