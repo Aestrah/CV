@@ -29,19 +29,11 @@ if (isset($_POST['Email'])) {
         $error_message .= 'The Email address you entered does not appear to be valid.<br>';
     }
 
-    $string_exp = "/^[A-Za-z .'-]+$/";
-
     if (strlen($error_message) > 0) {
         problem($error_message);
     }
 
     $email_message = "Form details below.\n\n";
-
-    function clean_string($string)
-    {
-        $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-        return str_replace($bad, "", $string);
-    }
 
     $email_message .= "Email: " . clean_string($email) . "\n";
 
@@ -54,8 +46,8 @@ if (isset($_POST['Email'])) {
 
     <!-- include your success message below -->
 
-    "Merci de m'avoir contacté. Je prends contact avec vous dans les plus brefs délai."
 
 <?php
 }
 ?>
+
