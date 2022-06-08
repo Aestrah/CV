@@ -44,10 +44,9 @@ if (isset($_POST['Email'])) {
     mail($email_to, $email_subject, $headers);
 ?>
 
-    <!-- include your success message below -->
+<!-- include your success message below -->
 
 
 <?php
 }
 ?>
-
