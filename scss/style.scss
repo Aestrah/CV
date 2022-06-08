@@ -64,8 +64,14 @@ header {
   background: var(--background);
   border-right: 1px solid var(--border);
 
+
+
   img {
     border-radius: 50%;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 

@@ -143,6 +143,9 @@ header p {
 .picture img {
   border-radius: 50%;
 }
+.picture img:hover {
+  cursor: pointer;
+}
 
 aside {
   grid-area: aside;
