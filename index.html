@@ -238,10 +238,10 @@
   </main>
   <footer>
     <h2 class="title-small">POUR VOUS RECONTACTER</h2>
-    <form action="#">
-      <i class="far fa-envelope-open prefix"></i>
-      <input type="text" name="email" placeholder="Votre email" />
-      <button>
+    <form method="POST" action="contact-form-process.php">
+      <i class=" far fa-envelope-open prefix"></i>
+      <input type="text" id="Email" name="Email" placeholder="Veuillez entre votre email : Exemple@nomdomaine.com" />
+      <button type="submit">
         <i class="fas fa-paper-plane postfix"></i>
       </button>
     </form>
